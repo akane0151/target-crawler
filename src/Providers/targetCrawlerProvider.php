@@ -6,6 +6,13 @@ use Illuminate\Support\ServiceProvider;
 
 class targetCrawlerProvider extends ServiceProvider
 {
+    public function register()
+    {
+        /*
+         * Register the service provider for the dependency.
+         */
+
+    }
     /**
      * Bootstrap services.
      *
