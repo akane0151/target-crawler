@@ -1,0 +1,18 @@
+{
+    "name": "akane0151/targetCrawler",
+    "autoload": {
+        "psr-4": {
+            "mexaro\\targetCrawler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mexaro",
+            "email": "mexaro@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1",
+        "fabpot/goutte": "^4.0"
+    }
+}
