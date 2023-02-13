@@ -1,5 +1,5 @@
 {
-    "name": "akane0151/targetCrawler",
+    "name": "akane0151/target-crawler",
     "autoload": {
         "psr-4": {
             "mexaro\\targetCrawler\\": "src/"
