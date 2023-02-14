@@ -1,8 +1,11 @@
 {
     "name": "akane0151/target-crawler",
+    "description": "target crawler - A simple Laravel crawler package.",
+    "type": "project",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "mexaro\\targetCrawler\\": "src/"
+            "akane0151\\targetCrawler\\": "src/"
         }
     },
     "authors": [
@@ -15,11 +18,12 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "fabpot/goutte": "^4.0"
     },
-        "extra": {
+    "extra": {
         "laravel": {
             "providers": [
-                "akane0151\\targetCrawler\\Providers\\targetCrawlerProvider"
+                "Akane0151\\TargetCrawler\\Providers\\TargetCrawlerProvider"
             ]
         }
     }
+
 }

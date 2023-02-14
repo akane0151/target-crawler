@@ -1,10 +1,10 @@
 <?php
-namespace akane0151\targetCrawler\Controllers;
+namespace Akane0151\TargetCrawler\Controllers;
 
 use Illuminate\Http\Request;
-use mexaro\targetCrawler\TargetCrawler;
+use Akane0151\TargetCrawler\TargetCrawler;
 
-class targetCrawlerController
+class TargetCrawlerController
 {
     public function crawl() {
         $target = TargetCrawler::doCrawl();

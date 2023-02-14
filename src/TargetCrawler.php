@@ -1,6 +1,6 @@
 <?php
 
-namespace akane0151\targetCrawler;
+namespace Akane0151\TargetCrawler;
 use Symfony\Component\HttpClient\HttpClient;
 use Goutte\Client;
 class TargetCrawler
@@ -12,11 +12,10 @@ class TargetCrawler
 
             $client = new Client(HttpClient::create(['timeout' => 60]));
             $crawler = $client->request('GET', $url);
-
             $targetData = [];
             $i = 1;
             foreach ($elements as $target){
-                $targetData["data".$i]=$crawler->filter('tr[data-market-row="price_dollar_rl"] .nf')->first()->text();
+                $targetData["data".$i]=$crawler->filter($target)->first()->text();
                 $i++;
             }
 

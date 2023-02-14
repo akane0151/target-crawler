@@ -1,18 +1,11 @@
 <?php
 
-namespace akane0151\targetCrawler\Providers;
+namespace Akane0151\TargetCrawler\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class targetCrawlerProvider extends ServiceProvider
+class TargetCrawlerProvider extends ServiceProvider
 {
-    public function register()
-    {
-        /*
-         * Register the service provider for the dependency.
-         */
-
-    }
     /**
      * Bootstrap services.
      *

@@ -1,5 +1,5 @@
 <?php
-use akane0151\targetCrawler\Controllers;
+use Akane0151\TargetCrawler\Controllers;
 use Illuminate\Support\Facades\Route;
 
-Route::get('crawl', [Controllers\targetCrawlerController::class,'crawl']);
+Route::get('crawl', [Controllers\TargetCrawlerController::class,'crawl']);
