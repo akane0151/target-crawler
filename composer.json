@@ -1,6 +1,6 @@
 {
     "name": "akane0151/target-crawler",
-    "description": "target crawler - A simple Laravel crawler package.",
+    "description": "target crawler - A simple Laravel crawler package to read element of any webpage.",
     "type": "project",
     "license": "MIT",
     "autoload": {
