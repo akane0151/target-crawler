@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "akane0151\\target-crawler\\": "src/"
+            "Akane0151\\TargetCrawler\\": "src/"
         }
     },
     "authors": [
